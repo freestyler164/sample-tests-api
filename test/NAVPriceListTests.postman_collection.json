@@ -19,7 +19,6 @@
 							"",
 							"pm.test(\"response should comply with the schema\", function() {",
 							"    var response = pm.response.json();",
-							"    console.log(response);",
 							"    var result=tv4.validateResult(response, schema)",
 							"    pm.expect(result.valid).to.equal(true);",
 							"});",
