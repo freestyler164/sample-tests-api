@@ -1,0 +1,23 @@
+{
+  "name": "sample-tests-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./run-test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freestyler164/sample-tests-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/freestyler164/sample-tests-api/issues"
+  },
+  "homepage": "https://github.com/freestyler164/sample-tests-api#readme",
+  "devDependencies": {
+    "newman": "^5.0.0"
+  }
+}
